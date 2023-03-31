@@ -1,0 +1,16 @@
+{
+    "blogs": [
+      {
+        "title": "First",
+        "body":"Yeah I'm the very first one to post anything yes me.I can talk about anything all day long.Talk about absolutely nothing just like Seinfeld.",
+        "author": "Mr. Annoying",
+        "id": 1
+      },
+      {
+        "title": "Nothing",
+        "body": "This is absolute nothing. Test the blogs",
+        "author": "Nobody",
+        "id": 2
+      }
+    ]
+  }

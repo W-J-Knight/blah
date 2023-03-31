@@ -1,0 +1,20 @@
+/* blog details page */
+.blogdetails {
+  background-color: #fff;
+}
+.blogdetails h2 {
+  /* background-color: #fff; */
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .blogdetails div {
+    margin: 20px 0;
+  }
+  .blogdetails button {
+    /* background: #f1356d; 
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer; */
+  }

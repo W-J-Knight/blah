@@ -16,7 +16,11 @@ body {
   background-color: var(--main-background);
 }
 
-.container {
+.container { 
+  /* background-color: #e35c1f; */
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column-reverse; */
   margin: 1rem;
   text-align: center;
 }
