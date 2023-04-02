@@ -1,0 +1,61 @@
+/* create new blog form */
+.create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 98%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: var(--orange);
+  color: var(--dark-gray);
+  padding-bottom: .5rem;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 20rem;
+  margin: auto;
+  padding: .375rem .675rem;
+  margin: .675rem 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background:#403075;
+  color: #fff;
+  border: 0;
+  padding: .5em;
+  border-radius: .5em;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .create {
+    width: 80%;
+  }
+  .create input,
+  .create textarea,
+  .create select {
+    width: 40rem;
+  }
+}
+@media (min-width: 1280px) {
+  .create {
+    min-width: 60%;
+  }
+}
+@media (min-width: 1440px) {
+  .create {
+    width: 40%;
+  }
+}
