@@ -12,7 +12,7 @@
   margin: 20px 0;
 }
 .blogdetails button {
-  background: #403075;
+  background: var(--purple);
   color: white;
   border: 0;
   padding: .5em;

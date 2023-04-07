@@ -27,7 +27,7 @@ const SaySomeThing = () => {
   };
 
   return (
-    <div container>
+    <div className="container" >
       <div className={styles.create}>
         <h2>Add a New Blog</h2>
         <form onSubmit={handleSubmit}>

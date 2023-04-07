@@ -11,18 +11,22 @@
   color: var(--dark-gray);
   padding-bottom: .5rem;
 }
+.create form{
+  width: 80%;
+  margin-left: 0%;
+}
 .create label {
   text-align: left;
   display: block;
 }
 .create h2 {
-  font-size: 20px;
-  margin-bottom: 30px;
+  font-size: 1.5rem;
+  margin-bottom: 1.9rem;
 }
 .create input,
 .create textarea,
 .create select {
-  width: 20rem;
+  width: 100%;
   margin: auto;
   padding: .375rem .675rem;
   margin: .675rem 0;
@@ -41,12 +45,12 @@
 
 @media (min-width: 768px) {
   .create {
-    width: 80%;
+    width: 100%;
   }
   .create input,
   .create textarea,
   .create select {
-    width: 40rem;
+    width: 100%;
   }
 }
 @media (min-width: 1280px) {
